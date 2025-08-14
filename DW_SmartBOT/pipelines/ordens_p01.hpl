@@ -91,182 +91,6 @@
     </GUI>
   </transform>
   <transform>
-    <name>Ler Arquivo de Ordens</name>
-    <type>CSVInput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <filename>D:\OneDrive - AIDTech\5-Investimento\6-Robos\SmartBOT\Joao_Pessoa\ordens.csv</filename>
-    <filename_field/>
-    <rownum_field/>
-    <include_filename>N</include_filename>
-    <separator>;</separator>
-    <enclosure>"</enclosure>
-    <header>Y</header>
-    <buffer_size>50000</buffer_size>
-    <schemaDefinition/>
-    <lazy_conversion>Y</lazy_conversion>
-    <add_filename_result>N</add_filename_result>
-    <parallel>N</parallel>
-    <newline_possible>N</newline_possible>
-    <encoding>UTF-8</encoding>
-    <fields>
-      <field>
-        <name>#</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>15</length>
-        <precision>-1</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>Data/Hora</name>
-        <type>Date</type>
-        <format>dd/MM/yyyy / HH:mm:ss</format>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>21</length>
-        <precision>-1</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>Ativo</name>
-        <type>String</type>
-        <format/>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>6</length>
-        <precision>-1</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>C/V</name>
-        <type>String</type>
-        <format/>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>1</length>
-        <precision>-1</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>Quantidade</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>15</length>
-        <precision>0</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>Preço limite</name>
-        <type>Number</type>
-        <format>#,##0.00</format>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>15</length>
-        <precision>2</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>Status</name>
-        <type>String</type>
-        <format/>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>9</length>
-        <precision>-1</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>Tipo</name>
-        <type>String</type>
-        <format/>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>7</length>
-        <precision>-1</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>Quantidade executada</name>
-        <type>Integer</type>
-        <format>#</format>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>15</length>
-        <precision>0</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>Preço médio</name>
-        <type>Number</type>
-        <format>#,##0.00</format>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>15</length>
-        <precision>2</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>Resultado (Abs.)</name>
-        <type>String</type>
-        <format>#.##</format>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>15</length>
-        <precision>2</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>Resultado %</name>
-        <type>String</type>
-        <format>#.##</format>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>15</length>
-        <precision>2</precision>
-        <trim_type>both</trim_type>
-      </field>
-      <field>
-        <name>Resultado (R$)</name>
-        <type>String</type>
-        <format>#,##0.00</format>
-        <currency>R$</currency>
-        <decimal>,</decimal>
-        <group>.</group>
-        <length>15</length>
-        <precision>2</precision>
-        <trim_type>both</trim_type>
-      </field>
-    </fields>
-    <attributes/>
-    <GUI>
-      <xloc>64</xloc>
-      <yloc>160</yloc>
-    </GUI>
-  </transform>
-  <transform>
     <name>Converte o Tipo dos Campos</name>
     <type>SelectValues</type>
     <description/>
@@ -522,124 +346,219 @@ Saldo = saldo;
     <appendOmitHeader>N</appendOmitHeader>
     <fields>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>#</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>#</name>
+        <styleCell/>
         <title>#</title>
+        <titleStyleCell/>
         <type>Integer</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>dd/mm/yyyy / hh:mm:ss</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Data/Hora</name>
+        <styleCell/>
         <title>Data/Hora</title>
+        <titleStyleCell/>
         <type>Date</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
+        <format/>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Ativo</name>
+        <styleCell/>
         <title>Ativo</title>
+        <titleStyleCell/>
         <type>String</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
+        <format/>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>C/V</name>
+        <styleCell/>
         <title>C/V</title>
+        <titleStyleCell/>
         <type>String</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>#</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Quantidade</name>
+        <styleCell/>
         <title>Quantidade</title>
+        <titleStyleCell/>
         <type>Integer</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>0.00</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Preço limite</name>
+        <styleCell/>
         <title>Preço limite</title>
+        <titleStyleCell/>
         <type>Number</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
+        <format/>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Status</name>
+        <styleCell/>
         <title>Status</title>
+        <titleStyleCell/>
         <type>String</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
+        <format/>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Tipo</name>
+        <styleCell/>
         <title>Tipo</title>
+        <titleStyleCell/>
         <type>String</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>#</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>QuantidadeExecutada</name>
+        <styleCell/>
         <title>QuantidadeExecutada</title>
+        <titleStyleCell/>
         <type>Integer</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>0.00</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Preço médio</name>
+        <styleCell/>
         <title>Preço médio</title>
+        <titleStyleCell/>
         <type>Number</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>0.00</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Resultado (Abs.)</name>
+        <styleCell/>
         <title>Resultado (Abs.)</title>
+        <titleStyleCell/>
         <type>Number</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>0.00</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Resultado %</name>
+        <styleCell/>
         <title>Resultado %</title>
+        <titleStyleCell/>
         <type>Number</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>0.00</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Resultado (R$)</name>
+        <styleCell/>
         <title>Resultado (R$)</title>
+        <titleStyleCell/>
         <type>Number</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>#0</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Saldo</name>
+        <styleCell/>
         <title>Saldo</title>
+        <titleStyleCell/>
         <type>Integer</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>dd</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Dia</name>
+        <styleCell/>
         <title>Dia</title>
+        <titleStyleCell/>
         <type>Date</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>hh:mm:ss</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Hora</name>
+        <styleCell/>
         <title>Hora</title>
+        <titleStyleCell/>
         <type>Date</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
+        <format/>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Dia_Semana</name>
+        <styleCell/>
         <title>Dia_Semana</title>
+        <titleStyleCell/>
         <type>String</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>#</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Aux</name>
+        <styleCell/>
         <title>Aux</title>
+        <titleStyleCell/>
         <type>Integer</type>
       </field>
     </fields>
@@ -649,13 +568,17 @@ Saldo = saldo;
       <add_time>N</add_time>
       <autosizecolums>N</autosizecolums>
       <createParentFolder>Y</createParentFolder>
+      <date_time_format/>
       <do_not_open_newfile_init>Y</do_not_open_newfile_init>
       <extension>xlsx</extension>
+      <filename_field/>
       <filename_in_field>N</filename_in_field>
       <if_file_exists>new</if_file_exists>
       <if_sheet_exists>new</if_sheet_exists>
-      <name>D:\OneDrive - AIDTech\5-Investimento\6-Robos\SmartBOT\Joao_Pessoa\ordens_hop_01</name>
+      <name>D:\git\AIDTech-pub\DW_SmartBOT\saida\ordens_hop_01</name>
+      <password/>
       <protect_sheet>N</protect_sheet>
+      <protected_by/>
       <sheetname>Ordens</sheetname>
       <split>N</split>
       <splitevery>0</splitevery>
@@ -667,11 +590,14 @@ Saldo = saldo;
     <leaveExistingStylesUnchanged>N</leaveExistingStylesUnchanged>
     <makeSheetActive>Y</makeSheetActive>
     <rowWritingMethod>overwrite</rowWritingMethod>
+    <schemaDefinition/>
     <startingCell>A1</startingCell>
     <template>
       <enabled>N</enabled>
+      <filename/>
       <hidden>N</hidden>
       <sheet_enabled>N</sheet_enabled>
+      <sheetname/>
     </template>
     <attributes/>
     <GUI>
@@ -724,6 +650,182 @@ Saldo = saldo;
     <attributes/>
     <GUI>
       <xloc>736</xloc>
+      <yloc>160</yloc>
+    </GUI>
+  </transform>
+  <transform>
+    <name>Ler Arquivo de Ordens</name>
+    <type>CSVInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <filename>${PROJECT_HOME}/entrada/ordens.csv</filename>
+    <filename_field/>
+    <rownum_field/>
+    <include_filename>N</include_filename>
+    <separator>;</separator>
+    <enclosure>"</enclosure>
+    <header>Y</header>
+    <buffer_size>50000</buffer_size>
+    <schemaDefinition/>
+    <lazy_conversion>Y</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
+    <encoding>UTF-8</encoding>
+    <fields>
+      <field>
+        <name>#</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>R$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>15</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>Data/Hora</name>
+        <type>Date</type>
+        <format>dd/MM/yyyy / HH:mm:ss</format>
+        <currency>R$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>21</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>Ativo</name>
+        <type>String</type>
+        <format/>
+        <currency>R$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>6</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>C/V</name>
+        <type>String</type>
+        <format/>
+        <currency>R$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>1</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>Quantidade</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>R$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>Preço limite</name>
+        <type>Number</type>
+        <format>#,##0.00</format>
+        <currency>R$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>15</length>
+        <precision>2</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>Status</name>
+        <type>String</type>
+        <format/>
+        <currency>R$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>9</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>Tipo</name>
+        <type>String</type>
+        <format/>
+        <currency>R$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>7</length>
+        <precision>-1</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>Quantidade executada</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>R$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>Preço médio</name>
+        <type>Number</type>
+        <format>#,##0.00</format>
+        <currency>R$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>15</length>
+        <precision>2</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>Resultado (Abs.)</name>
+        <type>String</type>
+        <format>#.##</format>
+        <currency>R$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>15</length>
+        <precision>2</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>Resultado %</name>
+        <type>String</type>
+        <format>#.##</format>
+        <currency>R$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>15</length>
+        <precision>2</precision>
+        <trim_type>both</trim_type>
+      </field>
+      <field>
+        <name>Resultado (R$)</name>
+        <type>String</type>
+        <format>#,##0.00</format>
+        <currency>R$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>15</length>
+        <precision>2</precision>
+        <trim_type>both</trim_type>
+      </field>
+    </fields>
+    <attributes/>
+    <GUI>
+      <xloc>64</xloc>
       <yloc>160</yloc>
     </GUI>
   </transform>

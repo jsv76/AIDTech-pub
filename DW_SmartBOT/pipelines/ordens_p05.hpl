@@ -291,7 +291,7 @@
       <filename_in_field>N</filename_in_field>
       <if_file_exists>reuse</if_file_exists>
       <if_sheet_exists>new</if_sheet_exists>
-      <name>D:\OneDrive - AIDTech\5-Investimento\6-Robos\SmartBOT\Joao_Pessoa\ordens_hop_01</name>
+      <name>D:\git\AIDTech-pub\DW_SmartBOT\saida\ordens_hop_01</name>
       <password/>
       <protect_sheet>N</protect_sheet>
       <protected_by/>
@@ -332,14 +332,24 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
+    <accept_field/>
     <accept_filenames>N</accept_filenames>
+    <accept_transform_name/>
     <add_to_result_filenames>Y</add_to_result_filenames>
+    <bad_line_files_destination_directory/>
     <bad_line_files_extension>warning</bad_line_files_extension>
+    <encoding/>
     <error_ignored>N</error_ignored>
+    <error_line_files_destination_directory/>
     <error_line_files_extension>error</error_line_files_extension>
     <error_line_skipped>N</error_line_skipped>
+    <extensionFieldName/>
     <fields>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>#</name>
         <precision>-1</precision>
@@ -348,6 +358,10 @@
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Data/Hora</name>
         <precision>-1</precision>
@@ -356,6 +370,10 @@
         <type>Date</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Ativo</name>
         <precision>-1</precision>
@@ -364,6 +382,10 @@
         <type>String</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>C/V</name>
         <precision>-1</precision>
@@ -372,6 +394,10 @@
         <type>String</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Quantidade</name>
         <precision>-1</precision>
@@ -380,6 +406,10 @@
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Preço limite</name>
         <precision>-1</precision>
@@ -388,6 +418,10 @@
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Status</name>
         <precision>-1</precision>
@@ -396,6 +430,10 @@
         <type>String</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Tipo</name>
         <precision>-1</precision>
@@ -404,6 +442,10 @@
         <type>String</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>QuantidadeExecutada</name>
         <precision>-1</precision>
@@ -412,6 +454,10 @@
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Preço médio</name>
         <precision>-1</precision>
@@ -420,6 +466,10 @@
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Resultado (Abs.)</name>
         <precision>-1</precision>
@@ -428,6 +478,10 @@
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Resultado %</name>
         <precision>-1</precision>
@@ -436,6 +490,10 @@
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Resultado (R$)</name>
         <precision>-1</precision>
@@ -444,6 +502,10 @@
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Saldo</name>
         <precision>-1</precision>
@@ -452,6 +514,10 @@
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Dia</name>
         <precision>-1</precision>
@@ -460,6 +526,10 @@
         <type>Date</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Hora</name>
         <precision>-1</precision>
@@ -468,6 +538,10 @@
         <type>Date</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Dia_Semana</name>
         <precision>-1</precision>
@@ -476,6 +550,10 @@
         <type>String</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Aux</name>
         <precision>-1</precision>
@@ -484,6 +562,10 @@
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Periodo</name>
         <precision>-1</precision>
@@ -492,6 +574,10 @@
         <type>String</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Operacao</name>
         <precision>-1</precision>
@@ -501,14 +587,26 @@
       </field>
     </fields>
     <file>
+      <exclude_filemask/>
       <file_required>N</file_required>
+      <filemask/>
       <include_subfolders>N</include_subfolders>
-      <name>D:\OneDrive - AIDTech\5-Investimento\6-Robos\SmartBOT\Joao_Pessoa\ordens_hop_01.xlsx</name>
+      <name>D:\git\AIDTech-pub\DW_SmartBOT\saida\ordens_hop_01.xlsx</name>
     </file>
+    <filefield/>
     <header>Y</header>
+    <hiddenFieldName/>
+    <lastModificationTimeFieldName/>
     <limit>0</limit>
+    <line_number_files_destination_directory/>
     <line_number_files_extension>line</line_number_files_extension>
     <noempty>Y</noempty>
+    <pathFieldName/>
+    <rootUriNameFieldName/>
+    <rownumfield/>
+    <schema_definition/>
+    <sheetfield/>
+    <sheetrownumfield/>
     <sheets>
       <sheet>
         <name>Ordens</name>
@@ -516,9 +614,12 @@
         <startrow>0</startrow>
       </sheet>
     </sheets>
+    <shortFileFieldName/>
+    <sizeFieldName/>
     <spreadsheet_type>SAX_POI</spreadsheet_type>
     <stoponempty>N</stoponempty>
     <strict_types>N</strict_types>
+    <uriNameFieldName/>
     <attributes/>
     <GUI>
       <xloc>160</xloc>

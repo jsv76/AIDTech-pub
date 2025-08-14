@@ -187,124 +187,219 @@ if (Tipo == "saída" &amp;&amp; Saldo &lt; 0) {
     <appendOmitHeader>N</appendOmitHeader>
     <fields>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>#</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>#</name>
+        <styleCell/>
         <title>#</title>
+        <titleStyleCell/>
         <type>Integer</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>dd/mm/yyyy / hh:mm:ss</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Data/Hora</name>
+        <styleCell/>
         <title>Data/Hora</title>
+        <titleStyleCell/>
         <type>Date</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
+        <format/>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Ativo</name>
+        <styleCell/>
         <title>Ativo</title>
+        <titleStyleCell/>
         <type>String</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
+        <format/>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>C/V</name>
+        <styleCell/>
         <title>C/V</title>
+        <titleStyleCell/>
         <type>String</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>#</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Quantidade</name>
+        <styleCell/>
         <title>Quantidade</title>
+        <titleStyleCell/>
         <type>Integer</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>0.00</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Preço limite</name>
+        <styleCell/>
         <title>Preço limite</title>
+        <titleStyleCell/>
         <type>Number</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
+        <format/>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Status</name>
+        <styleCell/>
         <title>Status</title>
+        <titleStyleCell/>
         <type>String</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
+        <format/>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Tipo</name>
+        <styleCell/>
         <title>Tipo</title>
+        <titleStyleCell/>
         <type>String</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>#</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>QuantidadeExecutada</name>
+        <styleCell/>
         <title>QuantidadeExecutada</title>
+        <titleStyleCell/>
         <type>Integer</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>0.00</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Preço médio</name>
+        <styleCell/>
         <title>Preço médio</title>
+        <titleStyleCell/>
         <type>Number</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>0.00</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Resultado (Abs.)</name>
+        <styleCell/>
         <title>Resultado (Abs.)</title>
+        <titleStyleCell/>
         <type>Number</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>0.00</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Resultado %</name>
+        <styleCell/>
         <title>Resultado %</title>
+        <titleStyleCell/>
         <type>Number</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>0.00</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Resultado (R$)</name>
+        <styleCell/>
         <title>Resultado (R$)</title>
+        <titleStyleCell/>
         <type>Number</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>#0</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Saldo</name>
+        <styleCell/>
         <title>Saldo</title>
+        <titleStyleCell/>
         <type>Integer</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>dd</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Dia</name>
+        <styleCell/>
         <title>Dia</title>
+        <titleStyleCell/>
         <type>Date</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>hh:mm:ss</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Hora</name>
+        <styleCell/>
         <title>Hora</title>
+        <titleStyleCell/>
         <type>Date</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
+        <format/>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Dia_Semana</name>
+        <styleCell/>
         <title>Dia_Semana</title>
+        <titleStyleCell/>
         <type>String</type>
       </field>
       <field>
+        <commentAuthorField/>
+        <commentField/>
         <format>#</format>
         <formula>N</formula>
+        <hyperlinkField/>
         <name>Aux</name>
+        <styleCell/>
         <title>Aux</title>
+        <titleStyleCell/>
         <type>Integer</type>
       </field>
     </fields>
@@ -314,13 +409,17 @@ if (Tipo == "saída" &amp;&amp; Saldo &lt; 0) {
       <add_time>N</add_time>
       <autosizecolums>N</autosizecolums>
       <createParentFolder>Y</createParentFolder>
+      <date_time_format/>
       <do_not_open_newfile_init>Y</do_not_open_newfile_init>
       <extension>xlsx</extension>
+      <filename_field/>
       <filename_in_field>N</filename_in_field>
       <if_file_exists>new</if_file_exists>
       <if_sheet_exists>new</if_sheet_exists>
-      <name>D:\OneDrive - AIDTech\5-Investimento\6-Robos\SmartBOT\Joao_Pessoa\ordens_hop_01</name>
+      <name>D:\git\AIDTech-pub\DW_SmartBOT\saida\ordens_hop_01</name>
+      <password/>
       <protect_sheet>N</protect_sheet>
+      <protected_by/>
       <sheetname>Ordens</sheetname>
       <split>N</split>
       <splitevery>0</splitevery>
@@ -332,11 +431,14 @@ if (Tipo == "saída" &amp;&amp; Saldo &lt; 0) {
     <leaveExistingStylesUnchanged>N</leaveExistingStylesUnchanged>
     <makeSheetActive>Y</makeSheetActive>
     <rowWritingMethod>overwrite</rowWritingMethod>
+    <schemaDefinition/>
     <startingCell>A1</startingCell>
     <template>
       <enabled>N</enabled>
+      <filename/>
       <hidden>N</hidden>
       <sheet_enabled>N</sheet_enabled>
+      <sheetname/>
     </template>
     <attributes/>
     <GUI>
@@ -497,15 +599,24 @@ if (TotalRegistros > 0) {
       <method>none</method>
       <schema_name/>
     </partitioning>
+    <accept_field/>
     <accept_filenames>N</accept_filenames>
+    <accept_transform_name/>
     <add_to_result_filenames>Y</add_to_result_filenames>
+    <bad_line_files_destination_directory/>
     <bad_line_files_extension>warning</bad_line_files_extension>
+    <encoding/>
     <error_ignored>N</error_ignored>
+    <error_line_files_destination_directory/>
     <error_line_files_extension>error</error_line_files_extension>
     <error_line_skipped>N</error_line_skipped>
+    <extensionFieldName/>
     <fields>
       <field>
+        <currency/>
+        <decimal/>
         <format>#</format>
+        <group/>
         <length>15</length>
         <name>#</name>
         <precision>0</precision>
@@ -514,7 +625,10 @@ if (TotalRegistros > 0) {
         <type>Integer</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
         <format>dd/mm/yyyy / hh:mm:ss</format>
+        <group/>
         <length>-1</length>
         <name>Data/Hora</name>
         <precision>-1</precision>
@@ -523,6 +637,10 @@ if (TotalRegistros > 0) {
         <type>Date</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Ativo</name>
         <precision>-1</precision>
@@ -531,6 +649,10 @@ if (TotalRegistros > 0) {
         <type>String</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>C/V</name>
         <precision>-1</precision>
@@ -539,7 +661,10 @@ if (TotalRegistros > 0) {
         <type>String</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
         <format>#</format>
+        <group/>
         <length>15</length>
         <name>Quantidade</name>
         <precision>0</precision>
@@ -548,7 +673,10 @@ if (TotalRegistros > 0) {
         <type>Integer</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
         <format>0.00</format>
+        <group/>
         <length>15</length>
         <name>Preço limite</name>
         <precision>2</precision>
@@ -557,6 +685,10 @@ if (TotalRegistros > 0) {
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Status</name>
         <precision>-1</precision>
@@ -565,6 +697,10 @@ if (TotalRegistros > 0) {
         <type>String</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Tipo</name>
         <precision>-1</precision>
@@ -573,7 +709,10 @@ if (TotalRegistros > 0) {
         <type>String</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
         <format>#0</format>
+        <group/>
         <length>15</length>
         <name>QuantidadeExecutada</name>
         <precision>0</precision>
@@ -582,7 +721,10 @@ if (TotalRegistros > 0) {
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
         <format>0.00</format>
+        <group/>
         <length>15</length>
         <name>Preço médio</name>
         <precision>2</precision>
@@ -591,7 +733,10 @@ if (TotalRegistros > 0) {
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
         <format>0.00</format>
+        <group/>
         <length>15</length>
         <name>Resultado (Abs.)</name>
         <precision>2</precision>
@@ -600,7 +745,10 @@ if (TotalRegistros > 0) {
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
         <format>0.00</format>
+        <group/>
         <length>15</length>
         <name>Resultado %</name>
         <precision>2</precision>
@@ -609,7 +757,10 @@ if (TotalRegistros > 0) {
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
         <format>0.00</format>
+        <group/>
         <length>15</length>
         <name>Resultado (R$)</name>
         <precision>2</precision>
@@ -618,7 +769,10 @@ if (TotalRegistros > 0) {
         <type>Number</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
         <format>#0</format>
+        <group/>
         <length>15</length>
         <name>Saldo</name>
         <precision>0</precision>
@@ -627,7 +781,10 @@ if (TotalRegistros > 0) {
         <type>Integer</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
         <format>dd</format>
+        <group/>
         <length>-1</length>
         <name>Dia</name>
         <precision>-1</precision>
@@ -636,7 +793,10 @@ if (TotalRegistros > 0) {
         <type>Date</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
         <format>hh:mm:ss</format>
+        <group/>
         <length>-1</length>
         <name>Hora</name>
         <precision>-1</precision>
@@ -645,6 +805,10 @@ if (TotalRegistros > 0) {
         <type>Date</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
+        <format/>
+        <group/>
         <length>-1</length>
         <name>Dia_Semana</name>
         <precision>-1</precision>
@@ -653,7 +817,10 @@ if (TotalRegistros > 0) {
         <type>String</type>
       </field>
       <field>
+        <currency/>
+        <decimal/>
         <format>#0</format>
+        <group/>
         <length>15</length>
         <name>Aux</name>
         <precision>0</precision>
@@ -663,14 +830,26 @@ if (TotalRegistros > 0) {
       </field>
     </fields>
     <file>
+      <exclude_filemask/>
       <file_required>N</file_required>
+      <filemask/>
       <include_subfolders>N</include_subfolders>
-      <name>D:\OneDrive - AIDTech\5-Investimento\6-Robos\SmartBOT\Joao_Pessoa\ordens_hop_01.xlsx</name>
+      <name>D:\git\AIDTech-pub\DW_SmartBOT\saida\ordens_hop_01.xlsx</name>
     </file>
+    <filefield/>
     <header>Y</header>
+    <hiddenFieldName/>
+    <lastModificationTimeFieldName/>
     <limit>0</limit>
+    <line_number_files_destination_directory/>
     <line_number_files_extension>line</line_number_files_extension>
     <noempty>Y</noempty>
+    <pathFieldName/>
+    <rootUriNameFieldName/>
+    <rownumfield/>
+    <schema_definition/>
+    <sheetfield/>
+    <sheetrownumfield/>
     <sheets>
       <sheet>
         <name>Ordens</name>
@@ -678,9 +857,12 @@ if (TotalRegistros > 0) {
         <startrow>0</startrow>
       </sheet>
     </sheets>
+    <shortFileFieldName/>
+    <sizeFieldName/>
     <spreadsheet_type>SAX_POI</spreadsheet_type>
     <stoponempty>N</stoponempty>
     <strict_types>N</strict_types>
+    <uriNameFieldName/>
     <attributes/>
     <GUI>
       <xloc>96</xloc>

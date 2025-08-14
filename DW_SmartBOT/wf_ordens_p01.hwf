@@ -41,7 +41,9 @@
       <clear_rows>N</clear_rows>
       <create_parent_folder>N</create_parent_folder>
       <exec_per_row>N</exec_per_row>
-      <filename>D:\OneDrive - AIDTech\5-Investimento\6-Robos\SmartBOT\HOP\pipelines\ordens_p01.hpl</filename>
+      <filename>${PROJECT_HOME}\pipelines\ordens_p01.hpl</filename>
+      <logext/>
+      <logfile/>
       <loglevel>Basic</loglevel>
       <parameters>
         <pass_all_parameters>Y</pass_all_parameters>
@@ -57,7 +59,7 @@
       <attributes_hac/>
     </action>
     <action>
-      <name>Sucesso</name>
+      <name>Sucesso 2</name>
       <description/>
       <type>SUCCESS</type>
       <attributes/>
@@ -71,12 +73,14 @@
       <description/>
       <type>Repeat</type>
       <attributes/>
-      <filename>D:\OneDrive - AIDTech\5-Investimento\6-Robos\SmartBOT\HOP\pipelines\ordens_p03.hpl</filename>
+      <delay/>
+      <filename>${PROJECT_HOME}\pipelines\ordens_p03.hpl</filename>
       <keep_values>N</keep_values>
       <logfile_add_date>Y</logfile_add_date>
       <logfile_add_repetition>N</logfile_add_repetition>
       <logfile_add_time>N</logfile_add_time>
       <logfile_appended>Y</logfile_appended>
+      <logfile_base/>
       <logfile_enabled>N</logfile_enabled>
       <logfile_extension>log</logfile_extension>
       <logfile_update_interval>5000</logfile_update_interval>
@@ -119,7 +123,9 @@
       <clear_rows>N</clear_rows>
       <create_parent_folder>N</create_parent_folder>
       <exec_per_row>N</exec_per_row>
-      <filename>D:\OneDrive - AIDTech\5-Investimento\6-Robos\SmartBOT\HOP\pipelines\ordens_p02.hpl</filename>
+      <filename>${PROJECT_HOME}\pipelines\ordens_p02.hpl</filename>
+      <logext/>
+      <logfile/>
       <loglevel>Basic</loglevel>
       <parameters>
         <pass_all_parameters>Y</pass_all_parameters>
@@ -135,7 +141,7 @@
       <attributes_hac/>
     </action>
     <action>
-      <name>Sucesso 2</name>
+      <name>Sucesso 1</name>
       <description/>
       <type>SUCCESS</type>
       <attributes/>
@@ -156,6 +162,8 @@
       <create_parent_folder>N</create_parent_folder>
       <exec_per_row>N</exec_per_row>
       <filename>${PROJECT_HOME}/pipelines/ordens_p04.hpl</filename>
+      <logext/>
+      <logfile/>
       <loglevel>Basic</loglevel>
       <parameters>
         <pass_all_parameters>Y</pass_all_parameters>
@@ -182,6 +190,8 @@
       <create_parent_folder>N</create_parent_folder>
       <exec_per_row>N</exec_per_row>
       <filename>${PROJECT_HOME}/pipelines/ordens_p04.hpl</filename>
+      <logext/>
+      <logfile/>
       <loglevel>Basic</loglevel>
       <parameters>
         <pass_all_parameters>Y</pass_all_parameters>
@@ -207,7 +217,7 @@
       <clear_rows>N</clear_rows>
       <create_parent_folder>N</create_parent_folder>
       <exec_per_row>N</exec_per_row>
-      <filename>D:\OneDrive - AIDTech\5-Investimento\6-Robos\SmartBOT\HOP\pipelines\ordens_p05.hpl</filename>
+      <filename>${PROJECT_HOME}\pipelines\ordens_p05.hpl</filename>
       <logext/>
       <logfile/>
       <loglevel>Basic</loglevel>
@@ -235,7 +245,9 @@
       <clear_rows>N</clear_rows>
       <create_parent_folder>N</create_parent_folder>
       <exec_per_row>N</exec_per_row>
-      <filename>D:\OneDrive - AIDTech\5-Investimento\6-Robos\SmartBOT\HOP\pipelines\ordens_p05.hpl</filename>
+      <filename>${PROJECT_HOME}\pipelines\ordens_p05.hpl</filename>
+      <logext/>
+      <logfile/>
       <loglevel>Basic</loglevel>
       <parameters>
         <pass_all_parameters>Y</pass_all_parameters>
@@ -296,7 +308,7 @@
     </hop>
     <hop>
       <from>ordens_p05.hpl</from>
-      <to>Sucesso</to>
+      <to>Sucesso 2</to>
       <enabled>Y</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
@@ -317,7 +329,7 @@
     </hop>
     <hop>
       <from>ordens_p05.hpl 2</from>
-      <to>Sucesso 2</to>
+      <to>Sucesso 1</to>
       <enabled>Y</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
