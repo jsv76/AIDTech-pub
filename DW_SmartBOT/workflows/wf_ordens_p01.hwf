@@ -41,7 +41,7 @@
       <clear_rows>N</clear_rows>
       <create_parent_folder>N</create_parent_folder>
       <exec_per_row>N</exec_per_row>
-      <filename>${PROJECT_HOME}\pipelines\ordens_p01.hpl</filename>
+      <filename>${PROJECT_HOME}\DW_SmartBOT\pipelines\ordens_p01.hpl</filename>
       <logext/>
       <logfile/>
       <loglevel>Basic</loglevel>
@@ -74,7 +74,7 @@
       <type>Repeat</type>
       <attributes/>
       <delay/>
-      <filename>${PROJECT_HOME}\pipelines\ordens_p03.hpl</filename>
+      <filename>${PROJECT_HOME}\DW_SmartBOT\pipelines\ordens_p03.hpl</filename>
       <keep_values>N</keep_values>
       <logfile_add_date>Y</logfile_add_date>
       <logfile_add_repetition>N</logfile_add_repetition>
@@ -123,7 +123,7 @@
       <clear_rows>N</clear_rows>
       <create_parent_folder>N</create_parent_folder>
       <exec_per_row>N</exec_per_row>
-      <filename>${PROJECT_HOME}\pipelines\ordens_p02.hpl</filename>
+      <filename>${PROJECT_HOME}\DW_SmartBOT\pipelines\ordens_p02.hpl</filename>
       <logext/>
       <logfile/>
       <loglevel>Basic</loglevel>
@@ -161,7 +161,7 @@
       <clear_rows>N</clear_rows>
       <create_parent_folder>N</create_parent_folder>
       <exec_per_row>N</exec_per_row>
-      <filename>${PROJECT_HOME}/pipelines/ordens_p04.hpl</filename>
+      <filename>${PROJECT_HOME}\DW_SmartBOT\pipelines\ordens_p04.hpl</filename>
       <logext/>
       <logfile/>
       <loglevel>Basic</loglevel>
@@ -189,7 +189,7 @@
       <clear_rows>N</clear_rows>
       <create_parent_folder>N</create_parent_folder>
       <exec_per_row>N</exec_per_row>
-      <filename>${PROJECT_HOME}/pipelines/ordens_p04.hpl</filename>
+      <filename>${PROJECT_HOME}\DW_SmartBOT\pipelines\ordens_p04.hpl</filename>
       <logext/>
       <logfile/>
       <loglevel>Basic</loglevel>
@@ -217,7 +217,7 @@
       <clear_rows>N</clear_rows>
       <create_parent_folder>N</create_parent_folder>
       <exec_per_row>N</exec_per_row>
-      <filename>${PROJECT_HOME}\pipelines\ordens_p05.hpl</filename>
+      <filename>${PROJECT_HOME}\DW_SmartBOT\pipelines\ordens_p05.hpl</filename>
       <logext/>
       <logfile/>
       <loglevel>Basic</loglevel>
@@ -245,7 +245,7 @@
       <clear_rows>N</clear_rows>
       <create_parent_folder>N</create_parent_folder>
       <exec_per_row>N</exec_per_row>
-      <filename>${PROJECT_HOME}\pipelines\ordens_p05.hpl</filename>
+      <filename>${PROJECT_HOME}\DW_SmartBOT\pipelines\ordens_p05.hpl</filename>
       <logext/>
       <logfile/>
       <loglevel>Basic</loglevel>

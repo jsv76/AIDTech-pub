@@ -575,7 +575,7 @@ Saldo = saldo;
       <filename_in_field>N</filename_in_field>
       <if_file_exists>new</if_file_exists>
       <if_sheet_exists>new</if_sheet_exists>
-      <name>D:\git\AIDTech-pub\DW_SmartBOT\saida\ordens_hop_01</name>
+      <name>${PROJECT_HOME}\DW_SmartBOT\saida\ordens_hop_01</name>
       <password/>
       <protect_sheet>N</protect_sheet>
       <protected_by/>
@@ -664,7 +664,7 @@ Saldo = saldo;
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${PROJECT_HOME}/entrada/ordens.csv</filename>
+    <filename>${PROJECT_HOME}\DW_SmartBOT\entrada\ordens.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>

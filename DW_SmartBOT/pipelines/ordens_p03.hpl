@@ -416,7 +416,7 @@ if (Tipo == "saída" &amp;&amp; Saldo &lt; 0) {
       <filename_in_field>N</filename_in_field>
       <if_file_exists>new</if_file_exists>
       <if_sheet_exists>new</if_sheet_exists>
-      <name>D:\git\AIDTech-pub\DW_SmartBOT\saida\ordens_hop_01</name>
+      <name>${PROJECT_HOME}\DW_SmartBOT\saida\ordens_hop_01</name>
       <password/>
       <protect_sheet>N</protect_sheet>
       <protected_by/>
@@ -834,7 +834,7 @@ if (TotalRegistros > 0) {
       <file_required>N</file_required>
       <filemask/>
       <include_subfolders>N</include_subfolders>
-      <name>D:\git\AIDTech-pub\DW_SmartBOT\saida\ordens_hop_01.xlsx</name>
+      <name>${PROJECT_HOME}\DW_SmartBOT\saida\ordens_hop_01.xlsx</name>
     </file>
     <filefield/>
     <header>Y</header>
